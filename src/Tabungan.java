@@ -17,6 +17,6 @@ public class Tabungan extends Rekening {
     @Override
     public void cetakInfo() {
         super.cetakInfo();
-        System.out.println("    Tabungan, bunga " + bungaPersen + "% per bulan");
+        System.out.println("      Tabungan, bunga " + bungaPersen + "% per bulan");
     }
 }
